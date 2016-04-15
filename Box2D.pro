@@ -1,11 +1,9 @@
 TEMPLATE = lib
 QT =
-
 CONFIG += warn_off
+CONFIG -= debug_and_release
 QMAKE_CXXFLAGS += -fno-strict-aliasing
-
 OBJECTS_DIR = .obj
-
 TARGET = Box2D
 
 SOURCES += \
